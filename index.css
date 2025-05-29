@@ -1,0 +1,329 @@
+
+body{
+    width:fit-content;
+    background-color: bisque;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    width: fit-content;
+}
+
+.headerTitle{
+    color:crimson;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+}
+
+.aboutCard{
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(56, 58, 58);
+    border-radius: 20px;
+}
+
+.aboutText{
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.menuOptions{
+    list-style: none;
+    text-align: center;
+    margin: 5px;
+}
+
+.options{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin:5px;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    color:black;
+}
+
+.menuTitle{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.profileCard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 58, 58);
+    justify-self: left;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    border-radius: 20px;
+    
+}
+
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(56, 58, 58);
+    justify-self: right;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    border-radius: 20px;
+    margin-top: 40px;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: center;
+    height:fit-content;
+    width:fit-content;
+    margin: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    background-color: rgba(39, 98, 153, 0.425);
+    box-shadow: 0px 0px 8px 0px black;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.profileImg{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.memberData{
+    display: flex;
+    flex-direction: column;
+}
+
+.profileName{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 5px;
+    margin-top: 40px;
+    color: white;
+    text-align: left;
+}
+
+.aboutMember{
+    font-size: 16px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 10px;
+    text-align:justify;
+}
+
+.blogCard{
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgb(56, 58, 58);
+    border-radius: 20px;
+}
+
+.blogBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.blogPost{
+    display:flex;
+    flex-direction: column;
+    background-color: crimson;
+    margin: 20px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 0px black;
+    transition: all 0.5s ease-in-out;
+}
+
+.blogTitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.blogText{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 10px;
+    text-align: justify;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    text-align: left;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(56, 58, 58);
+    border-radius: 20px;
+}
+
+.footerTitle{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.footerOptions{
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+}
+
+.foptions{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left:15px;
+    margin-bottom: 30px;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.options:hover{
+    color: whitesmoke;
+    font-weight: 700;
+    text-shadow: 0px 0px 5px black;
+}
+
+.foptions:hover{
+    color: crimson;
+    text-shadow: 0px 0px 5px black;
+    font-weight: 700;
+}
+
+.card:hover{
+    background-color: rgba(39, 98, 153, 0.733);
+}
+
+.blogPost:hover{
+    background-color: rgb(243, 63, 99);
+    text-shadow: 0px 0px 5px rgb(51, 50, 50);
+}
+
+@media(max-width: 1000px){
+    .headerTitle, .footerTitle{
+        font-size: 35px;
+    }
+
+    .options, .foptions{
+        font-size: 18px;
+    }
+
+    .menuTitle{
+        font-size: 50px;
+    }
+
+    .profileImg{
+        height: 150px;
+        width: 150px;
+    }
+
+    .profileName{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .aboutMember{
+        font-size: 14px;
+    }
+
+    .blogPost{
+        width: 500px;
+    }
+    
+    .blogBox{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 850px){
+    .headerTitle, .footerOptions{
+        font-size: 30px;
+    }
+
+    .options, .foptions{
+        font-size: 16px;
+    }
+
+    .foptions{
+        margin-bottom: 10px;
+    }
+
+    .menuTitle{
+        font-size: 35px;
+    }
+
+    .profileImg{
+        height: 120px;
+        width: 120px;
+    }
+
+    .profileName{
+        font-size: 16px;
+    }
+
+    .aboutMember{
+        font-size: 12px;
+    }
+}
+
+
+@media(max-width: 750px){
+    .headerTitle, .footerTitle{
+        font-size: 25px;
+    }
+
+    .options, .foptions{
+        font-size: 14px;
+    }
+
+    .menuTitle{
+        font-size: 30px;
+    }
+
+    .profileImg{
+        height: 100px;
+        width: 100px;
+    }
+
+    .profileName{
+        font-size: 14px;
+    }
+
+    .aboutMember{
+        font-size: 10px;
+    }
+}
