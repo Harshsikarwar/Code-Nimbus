@@ -271,11 +271,11 @@ body{
 
 @media(max-width: 850px){
     .headerTitle, .footerOptions{
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .options, .foptions{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .foptions{
@@ -303,11 +303,14 @@ body{
 
 @media(max-width: 750px){
     .headerTitle, .footerTitle{
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .options, .foptions{
-        font-size: 14px;
+        font-size: 18px;
+    }
+    .aboutCard, .profileCard, .projectCard, .blogCard{
+        width: 90%;
     }
 
     .menuTitle{
@@ -324,6 +327,18 @@ body{
     }
 
     .aboutMember{
-        font-size: 10px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 650px){
+    .blogPost{
+        width: 300px;
+    }
+}
+
+@media(max-width: 400px){
+    .blogPost{
+        width: 250px;
     }
 }
