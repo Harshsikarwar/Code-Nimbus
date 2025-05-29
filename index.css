@@ -323,11 +323,15 @@ body{
     }
 
     .profileName{
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .aboutMember{
-        font-size: 12px;
+        font-size: 14px;
+    }
+
+    .aboutCard{
+        justify-self: center;
     }
 }
 
@@ -341,4 +345,19 @@ body{
     .blogPost{
         width: 250px;
     }
+    .card{
+        flex-direction: column;
+        width: 90%;
+    }
+    .profileImg{
+        margin-bottom: 0px;
+        margin-left: 5px;
+        border-radius: 20px;
+        width:150px;
+        height: 150px;
+    }
+    .memberData{
+        margin-top: 0px;
+    }
+
 }
